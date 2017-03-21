@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/*头部banner*/
+.banner{width:100%;max-width:1920px;height:835px;overflow:hidden;}
+.banner .banner_bac{width:100%;max-width:1920px;height:auto;margin:0 auto;}
+.banner .banner_bac .banner1{width:100%;height:278px;background:url(../images/banner.jpg) no-repeat center;}
+.banner .banner_bac .banner2{width:100%;height:279px;background:url(../images/banner-02.jpg) no-repeat center;}
+.banner .banner_bac .banner3{width:100%;height:278px;background:url(../images/banner-03.jpg) no-repeat center;}
+
+/*法国巴黎*/
+.Paris{width:100%;max-width:1920px;height:748px;background-color:#e6f6ff;overflow:hidden;}
+.Paris .ParisAll{width:1000px;height:auto;margin:0 auto;text-align:center;position:relative;}
+.Paris .ParisAll .ParisText{width:224px;height:240px;background-color:#49b4ff;color:white;position:absolute;top:110px;}
+.Paris .ParisAll .ParisText h2{font-size:2em;line-height:42px;padding-top:30px;margin-bottom:38px;}
+.Paris .ParisAll .ParisText p{font-size:24px;line-height:38px;}
+.Paris .ParisAll .Paris01{width:223px;height:347px;background:url(../images/Paris01.jpg) no-repeat center;position:absolute;top:346px;margin-top:7px;}
+.Paris .ParisAll .Paris02{width:459px;height:654px;background:url(../images/Paris02.jpg) no-repeat center;position:absolute;top:46px;left:225px;}
+.Paris .ParisAll .Paris02:hover .Paris02-1{display:block;}
+.Paris .ParisAll .Paris02 .Paris02-1{width:449px;height:308px;background-color:rgba(1,1,1,0.4);position:absolute;bottom:0;text-align:left;font-size:24px;line-height:44px;color:white;padding-left:10px;display:none;}
+.Paris .ParisAll .Paris02 .Paris02-1 button{width:230px;height:56px;background-color:rgba(0,0,0,0);color:white;font-size:28px;border:2px solid white;border-radius:10px;display:block;margin:12px auto;}
+.Paris .ParisAll .Paris03{width:312px;height:388px;background:url(../images/Paris03.jpg) no-repeat center;position:absolute;top:180px;left:686px;}
+
+/*马来西亚普吉岛*/
+.Malaysia{width:100%;max-width:1920px;height:936px;overflow:hidden;}
+.Malaysia .island{position:relative;width:1000px;height:auto;margin:0 auto;text-align:center;}
+.Malaysia .island h2{font-size:38px;line-height:42px;padding-top:64px;margin-bottom:28px;color:#333;}
+.Malaysia .island p{font-size:24px;line-height:42px;text-align:center;color:#666;}
+.Malaysia .island .island1{width:468px;height:290px;background:url(../images/Malaysia01.jpg) no-repeat center;position:absolute;top:226px;}
+.Malaysia .island .island2{width:231px;height:230px;background:url(../images/Malaysia02.jpg) no-repeat center;position:absolute;top:517px;}
+.Malaysia .island .island3{width:235px;height:230px;background:url(../images/Malaysia03.jpg) no-repeat center;position:absolute;top:516px;left:233px;}
+.Malaysia .island .island4{width:530px;height:520px;background:url(../images/Malaysia04.jpg) no-repeat center;position:absolute;top:226px;left:470px;}
+.Malaysia .island .button{width:258px;height:72px;color:white;font-size:28px;background-color:red;border:1px solid red;border-radius:10px;position:absolute;top:784px;left:374px;box-shadow:4px 4px 4px #999;}
+
+/*韩国首尔*/
+.Korea{width:100%;max-width:1920px;height:660px;background-color:#e6f6ff;overflow:hidden;}
+.Korea .KoreaAll{width:1000px;height:auto;margin:0 auto;position:relative;}
+.Korea .KoreaAll .KoreaText{width:488px;height:184px;background-color:#fc7742;color:white;position:absolute;top:46px;left:89px;}
+.Korea .KoreaAll .KoreaText h2{font-size:32px;line-height:42px;padding:44px 0 0 34px;margin-bottom:28px;}
+.Korea .KoreaAll .KoreaText p{font-size:24px;line-height:38px;padding:0 0 0 34px;}
+.Korea .KoreaAll .Korea01{width:577px;height:379px;background:url(../images/Korea01.jpg) no-repeat center;position:absolute;top:232px;}
+.Korea .KoreaAll .Korea02{width:419px;height:442px;background:url(../images/Korea02.jpg) no-repeat center;position:absolute;top:46px;left:579px;}
+
+/*泰国曼谷*/
+.Thailand{width:100%;max-width:1920px;height:912px;overflow:hidden;}
+.Thailand .ThailandAll{width:1000px;height:auto;margin:0 auto;text-align:center;position:relative;}
+.Thailand .ThailandAll h2{font-size:38px;line-height:42px;text-align:center;padding-top:104px;margin-bottom:32px;color:#7d7d7d;}
+.Thailand .ThailandAll p{font-size:24px;line-height:42px;text-align:center;color:#d3d3d3;}
+.Thailand .ThailandAll .Thailand_pic{width:1000px;height:364px;background:url(../images/Thailand.jpg) no-repeat center;margin:20px auto;position:relative;}
+.Thailand .ThailandAll .Thailand_pic:hover .Thailand_pic01{display:block;}
+.Thailand .ThailandAll .Thailand_pic .Thailand_pic01{width:236px;height:364px;background-color:rgba(1,1,1,0.4);position:absolute;right:0;font-size:24px;color:white;display:none;}
+.Thailand .ThailandAll .Thailand_pic .Thailand_pic01 h4{padding:25px 0 10px 20px;}
+.Thailand .ThailandAll .Thailand_pic .Thailand_pic01 p{line-height:40px;padding:0 20px 0 20px;text-align:left;}
+.Thailand .ThailandAll .button2{width:258px;height:72px;color:white;font-size:28px;background-color:red;border:1px solid red;border-radius:10px;position:absolute;top:720px;left:374px;box-shadow:4px 4px 4px #999;}
+
+/*新西兰*/
+.New-Zealand{width:100%;max-width:1920px;height:748px;background-color:#e6f6ff;overflow:hidden;}
+.New-Zealand .New-ZealandAll{width:1000px;height:auto;margin:0 auto;position:relative;}
+.New-Zealand .New-ZealandAll .New-Zealand01{width:460px;height:655px;background:url(../images/New-Zealand01.jpg) no-repeat center;position:absolute;top:48px;}
+.New-Zealand .New-ZealandAll .New-Zealand02{width:311px;height:239px;background:url(../images/New-Zealand02.jpg) no-repeat center;position:absolute;top:100px;left:462px;}
+.New-Zealand .New-ZealandAll .New-Zealand03{width:535px;height:247px;background:url(../images/New-Zealand03.jpg) no-repeat center;position:absolute;top:342px;left:462px;}
+.New-Zealand .New-ZealandAll .New-ZealandText{width:222px;height:240px;background-color:#47bc52;color:white;position:absolute;top:100px;left:775px;text-align:center;}
+.New-Zealand .New-ZealandAll .New-ZealandText h2{font-size:2em;line-height:42px;padding-top:30px;margin-bottom:38px;}
+.New-Zealand .New-ZealandAll .New-ZealandText p{font-size:24px;line-height:38px;}
